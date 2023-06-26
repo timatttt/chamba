@@ -1,0 +1,501 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+body {
+  width: 2550px;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+.textbac {
+  text-align: center;
+  margin-right: 200px;
+  font-size: 47px;
+}
+.h1span {font-size: 80px;
+  color: aliceblue;
+  font-weight: 900;
+  font-family: "Paytone One", sans-serif;
+}
+.h1bac {
+  color: rgb(189, 48, 48);
+  padding-top: 90px;
+  font-size: 80px;
+}
+.pb1 {
+  padding: 160px 370px 0px 0px;
+  color: aliceblue;
+
+  font-size: 80px;
+}
+.pb2 {
+  padding: 0px 0px 0px 170px;
+  color: rgb(203, 226, 210);
+  font-size: 100px;
+  font-style: italic;
+}
+.p1 {
+  font-family: "Satisfy", cursive;
+  font-size: 30px;
+}
+
+.test-drive {
+  background-color: rgb(237, 237, 237);
+  padding: 15px 0;
+  height: 84px;
+  text-align: center;
+}
+.test-drive p {
+  font-size: 27px;
+  padding: 10px 20px;
+}
+
+.topcar1 {
+  width: 366px;
+  margin: 0px 28px 0px 20px;
+  text-align: center;
+}
+.topcar1 h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(199, 8, 26);
+  font-weight: bolder;
+  font-size: 19px;
+  padding-top: 20px;
+}
+.topcar1 p {
+  text-align: center;
+  font-size: 16px;
+}
+
+.botton {
+  font-size: 20px;
+  background-color: rgb(199, 8, 26);
+  border-radius: 4px;
+  text-align: center;
+  padding: 0px 18px;
+  margin: 5px;
+  font-weight: 600;
+  color: aliceblue;
+}
+.test-drive {
+  display: flex;
+  justify-content: center;
+}
+
+.pages {
+  display: flex;
+  justify-content: center;
+  margin-top: 65px;
+}
+
+.topcar1 p {
+  color: rgb(39, 39, 39);
+
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+  line-height: 23px;
+}
+.header-body {
+  background-image: url(../image/slide-show4.jpg);
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+
+  height: 626px;
+}
+.fff {
+  content: "";
+
+  background-size: cover;
+  object-fit: cover;
+  background-position: center;
+}
+
+.textnav {
+  padding-left: 150px;
+  width: 100%;
+}
+.textnav li {
+}
+.headercon {
+  display: flex;
+  background: rgb(0, 0, 0, 0.6);
+}
+.auto {
+  padding-right: 130px;
+  margin-left: 640px;
+  display: inline-block;
+  color: white;
+  padding-top: 14px;
+  font-size: 20px;
+}
+
+.headercon li {
+  font-weight: 600;
+  color: white;
+  display: inline-block;
+  padding: 40px 19px 35px 19px;
+  font-size: 21px;
+}
+.headercon li:hover {
+  background-color: rgb(216, 2, 2);
+}
+
+.plus1 {
+  font-size: 30px;
+}
+
+.inventory {
+  margin-top: 80px;
+  background-image: url("https://images.freeimages.com/images/previews/ac9/railway-hdr-1361893.jpg");
+  width: 100%;
+  height: 384px;
+  background-size: cover;
+
+  padding: 0;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+}
+a,
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+.p1 {
+  font-style: italic;
+  font-size: 40px;
+}
+.p2 {
+  font-size: 80%;
+  text-align: center;
+  letter-spacing: 9px;
+}
+.header {
+  font-family: "Open Sans", sans-serif;
+}
+.inventory {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(245, 246, 252, 0.9),
+      rgb(231 231 231 / 89%)
+    ),
+    url(..//image/parallax1.jpg);
+}
+.inv1 {
+  width: 320px;
+  text-align: center;
+  padding: 54px 0px 0px 0px;
+}
+.inv1 p {
+  font-size: 18px;
+
+  line-height: 24px;
+  padding: 7px;
+}
+.inv1 h2 {
+  font-size: 30px;
+  padding: 7px;
+  font-weight: 600;
+}
+.inventory i {
+  padding: 10px 10px 10px 20px;
+  font-size: 79px;
+  color: rgb(55, 55, 55);
+}
+.invcontent {
+  margin-left: 50px;
+  display: flex;
+}
+.kk {
+  font: 20px;
+  color: black;
+}
+.services {
+  display: flex;
+  justify-content: center;
+  height: 349px;
+}
+.services i {
+  color: rgb(56, 55, 55);
+  font-size: 100px;
+}
+.ser1 {
+  padding: 80px 0px 0px 90px;
+}
+.ser1 h2 {
+  font-weight: 600;
+  text-align: center;
+  font-size: 25px;
+  padding-bottom: 40px;
+}
+.ser11 h3 {
+  font-weight: 600;
+}
+.ser11 {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 15px 0px 0px 30px;
+}
+
+.Service {
+  padding: 80px 0px 0px 80px;
+}
+.Service h2 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+}
+.ourteam {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(..//image/parallax2.jpg);
+}
+.ourteam {
+  background-size: cover;
+
+  background-position: left 0% bottom 70%;
+
+  height: 276px;
+}
+.ourteam {
+  display: flex;
+  justify-content: center;
+  color: rgba(254, 254, 255);
+  margin-top: 40px;
+}
+.team1,
+.team2,
+.team3,
+.team4 {
+  padding: 63px 70px 0px 120px;
+}
+.team1 p,
+.team2 p,
+.team3 p,
+.team4 p {
+  padding-top: 22px;
+  text-align: center;
+  font-size: 17px;
+}
+.ourteam i {
+  padding-top: 63px;
+  font-size: 50px;
+}
+.team1 h2,
+.team2 h2,
+.team3 h2,
+.team4 h2 {
+  font-size: 48px;
+  text-align: center;
+}
+.team1 i {
+  padding: 0px 0px 10px 35px;
+}
+.team2 i {
+  padding: 0px 0px 10px 75px;
+}
+.team3 i {
+  padding: 0px 0px 10px 43px;
+}
+.team4 i {
+  padding: 0px 0px 10px 40px;
+}
+.letest i {
+  color: aliceblue;
+}
+.contact {
+}
+.portfolio {
+  height: 270px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(61, 61, 61);
+  color: rgb(255, 255, 255);
+}
+.newsleter {
+  padding: 0px 0px 0px 40px;
+  width: 450px;
+}
+.newsleter h2 {
+  padding-bottom: 17px;
+  font-size: 30px;
+  font-weight: 600;
+}
+.newsleter p {
+  font-size: 14px;
+}
+.input {
+  border-radius: 4px;
+  padding: 6px;
+  margin-top: 25px;
+}
+.submit-btn {
+  background-color: rgb(47, 47, 47);
+  color: white;
+
+  padding: 6px;
+  border-radius: 5px;
+}
+
+.portfolio {
+}
+.letest {
+  font-size: 15px;
+  padding: 0px 0px 0px 40px;
+  width: 500px;
+}
+.letest h2 {
+  font-size: 30px;
+  font-weight: 600;
+  padding-left: 35px;
+}
+.contact {
+  font-size: 15px;
+  padding: 0px 0px 40px 50px;
+  width: 400px;
+}
+.contact i {
+  padding: 0px 20px 0px 0px;
+}
+.contact li {
+  padding: 7px 0px 7px 0px;
+  display: inline-block;
+}
+.contact h2 {
+  font-size: 30px;
+  font-weight: 600;
+  padding: 0px 0px 10px 35px;
+}
+.letest li {
+  display: flex;
+  padding: 10px 0px 10px 0px;
+}
+.letest i {
+  padding: 0px 20px 0px 0px;
+}
+.footerfull {
+  display: flex;
+  justify-content: space-evenly;
+  height: 170px;
+  align-items: center;
+  background-color: rgb(47, 47, 47);
+  color: rgb(153, 153, 155);
+}
+.p1f {
+  font-family: "Satisfy", cursive;
+  font-size: 30px;
+}
+.p2f {
+  padding: 0px 0px 70px 0px;
+  letter-spacing: 9px;
+  font-weight: 600;
+}
+
+.main {
+}
+.topcar1text {
+  width: 360px;
+}
+.topcar1 img {
+  width: 360px;
+}
+.test-drivecontent {
+  display: flex;
+  margin-right: 170px;
+}
+.teamcontent {
+  display: flex;
+  margin-left: 50px;
+}
+.portcontent {
+  display: flex; margin-left: 180px;
+
+}
+
+
